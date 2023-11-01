@@ -1,0 +1,132 @@
+/*DESCKTOP*/
+@media (min-width: 1199.98px) {
+  .home-blue-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 35px 15px;
+    background: rgba(213, 111, 255, 0.25);
+  }
+
+  .home_content_numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-number {
+    color: black;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  .home_subNumber {
+    color: rgb(82, 82, 82);
+    font-size: 1.5rem;
+    font-weight: lighter;
+    letter-spacing: 1px;
+  }
+
+  .home-ofrecemos {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgb(44, 44, 44);
+
+    letter-spacing: 2px;
+  }
+
+  .home_card_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+  }
+
+  .home_content_card {
+    width: 400px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .home_card_title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}
+
+/* MOBIL */
+@media (max-width: 575.98px) and (orientation: portrait) {
+  .home-blue-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 15px;
+    background: rgba(76, 54, 175, 0.3);
+  }
+
+  .home_content_numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .home-number {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .home_subNumber {
+    color: black;
+    font-size: 0.75rem;
+    font-weight: lighter;
+  }
+
+  /* home content numbers */
+  .home_content_numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-number {
+    color: black;
+    font-size: 2.8rem;
+    font-weight: 500;
+  }
+  .home_subNumber {
+    color: black;
+    font-size: 1rem;
+    font-weight: lighter;
+  }
+
+  .home-ofrecemos {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(44, 44, 44);
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  .home_card_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home_content_card {
+    width: 400px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .home_card_title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}

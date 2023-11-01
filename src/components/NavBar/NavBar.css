@@ -1,0 +1,208 @@
+/*DESCKTOP*/
+@media (min-width: 1199.98px) {
+  .navBar_content_sticky {
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+  }
+  .top-banner {
+    padding: 13px 15px;
+    background-color: #e9008c;
+  }
+  .content-top_banner {
+    color: #fff;
+    text-align: center;
+    font-size: 0.88rem;
+    font-weight: 600;
+  }
+
+  .top-banner div .navBar-span_information {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .navBar-container {
+    width: 100%;
+    position: sticky;
+    background-color: #fff;
+    box-shadow: 0 2px 10px 5px rgba(167, 167, 167, 0.4);
+    padding: 30px 0;
+  }
+
+  .navBar-ul_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navBar-image_container {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .navBar-image {
+    width: 40px;
+    height: 15px;
+    margin-left: 10px;
+  }
+
+  li {
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+    font-weight: lighter;
+  }
+
+  li a {
+    color: #0965c7;
+    font-size: 1rem;
+  }
+
+  .content_li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .content_li li {
+    margin-right: 20px;
+  }
+
+  .loguin {
+    background-color: #0a6dd6;
+    color: #fff;
+    border: transparent;
+    font-size: 0.93rem;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin: 0 2px;
+    cursor: pointer;
+  }
+  .loguin:hover {
+    background-color: #fff;
+    color: #0a6dd6;
+    box-shadow: 0 0 0 1px #0a6dd6;
+  }
+  .loguin:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #0a6dd6;
+  }
+  .medical_loguin {
+    margin: 0 2px;
+    /* width: 150px; */
+    background-color: #fff;
+    color: #0a6dd6;
+    border: 1px solid #0a6dd6;
+    font-size: 0.93rem;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .medical_loguin:hover {
+    /* width: 150px; */
+    background-color: #0a6dd6;
+    color: #fff;
+    box-shadow: 0 0 0 1px transparent;
+  }
+
+  .medical_loguin:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #0a6dd6;
+  }
+}
+
+/* MOBIL */
+@media (max-width: 575.98px) and (orientation: portrait) {
+  .navBar_content_sticky {
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+  }
+
+  .navBar-container {
+    width: 100vw;
+    position: sticky;
+    background-color: #fff;
+    /* box-shadow: 0 4px 20px 8px rgba(167, 167, 167, 0.4); */
+  }
+
+  .navBar-container li {
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+
+  .navBar-ul_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: -7px;
+  }
+
+  .navBar-image_container {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .navBar-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  li {
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+    font-weight: lighter;
+  }
+
+  .top-banner {
+    padding: 10px 15px;
+    background-color: #e9008c;
+  }
+  .top-banner div {
+    color: #fff;
+    text-align: center;
+  }
+  .top-banner div .navBar-span_information {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  li a {
+    color: #0a6dd6;
+    font-size: 1.2rem;
+  }
+
+  .content_li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .content_li li {
+    margin-right: 20px;
+  }
+
+  .loguin {
+    background-color: #0a6dd6;
+    color: #fff;
+    border: transparent;
+    font-size: 0.93rem;
+    padding: 10px 25px;
+    border-radius: 5px;
+
+    cursor: pointer;
+  }
+
+  .medical_loguin {
+    background-color: #0a6dd6;
+    color: #fff;
+    border: transparent;
+    font-size: 0.93rem;
+    padding: 10px 25px;
+    border-radius: 5px;
+
+    cursor: pointer;
+  }
+}
